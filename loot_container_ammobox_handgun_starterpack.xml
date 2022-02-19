@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<container extension=".epe" format="RTPC" endian="Little">
+	<object id="AA7D522A">
+		<object id="14DDA5C9">
+			<value name="_class" type="string">CPOI</value>
+			<value name="_class_hash" type="uint">1263718194</value>
+			<value name="_object_id" type="objectid">DEC4FF4E452EFFFF=FF</value>
+			<value name="attach_2d_offset" type="vec2">0,-10</value>
+			<value name="attach_index" type="uint">0</value>
+			<value name="attach_object" type="objectid">000000=00</value>
+			<value name="attach_position" type="uint">3</value>
+			<value name="attach_preference" type="uint">0</value>
+			<value name="clamp_to_screen" type="uint">0</value>
+			<value name="destruction_disable" type="uint">0</value>
+			<value name="distance_limit_type" type="uint">0</value>
+			<value name="do_hide_event" type="vec_events">A204E5CD=FFFFF59D</value>
+			<value name="do_show_event" type="vec_events">E0CFF083=FFFF8E5F</value>
+			<value name="force_show_distance" type="float">-1</value>
+			<value name="hide_if_attached_to_vehicle" type="uint">0</value>
+			<value name="hide_if_in_use" type="uint">0</value>
+			<value name="is_minor" type="uint">0</value>
+			<value name="max_distance" type="float">-1</value>
+			<value name="min_distance" type="float">-1</value>
+			<value name="name" type="string">icon</value>
+			<value name="name_hash" type="hashstr">icon</value>
+			<value name="override_default_attachment" type="uint">1</value>
+			<value name="ping_at_start" type="uint">0</value>
+			<value name="scale_based_on_distance" type="uint">4294967295</value>
+			<value name="show_before_attach" type="uint">1</value>
+			<value name="show_during_missions" type="uint">4294967295</value>
+			<value name="show_during_roms" type="uint">4294967295</value>
+			<value name="show_gps" type="uint">0</value>
+			<value name="show_label_box_extents" type="vec4">-1,-1,-1,-1</value>
+			<value name="show_on_map" type="uint">0</value>
+			<value name="start_flashing" type="uint">0</value>
+			<value name="start_shown" type="uint">0</value>
+			<value name="type" type="uint">19</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0.2967928,-0.00492318,1</value>
+			<value id="3FDBB286" type="objectid">000000=00</value>
+			<value id="5EAEA596" type="uint">0</value>
+			<value id="B671A698" type="uint">1</value>
+			<value id="6D288925" type="uint">0</value>
+			<value id="8FEF2B6B" type="float">0</value>
+			<value id="C1FEE4B0" type="uint">0</value>
+			<value id="0D7C9AEF" type="uint">1</value>
+			<value id="744F9F4D" type="uint">1</value>
+			<value id="3A7EA0DC" type="uint">0</value>
+			<value id="34CCE23F" type="uint">29</value>
+			<value id="D03C9656" type="uint">0</value>
+			<value id="8BB1E065" type="uint">1</value>
+			<value id="4A144DEE" type="vec2">0,0</value>
+			<value id="200E9236" type="uint">0</value>
+			<value id="C566DD4E" type="uint">0</value>
+			<value id="57825966" type="uint">0</value>
+		</object>
+		<object id="1C66272F">
+			<value name="_class" type="string">CEventTrigger</value>
+			<value name="_class_hash" type="hashstr">CEventTrigger</value>
+			<value name="_object_id" type="objectid">ACCF119EA618FFFF=FF</value>
+			<value name="enabled" type="uint">1</value>
+			<value name="name" type="string">icon_hints_enable</value>
+			<value name="name_hash" type="uint">2752659729</value>
+			<value name="pass_text" type="uint">0</value>
+			<value name="randomize_unique_indices" type="uint">0</value>
+			<value name="relay_event" type="vec_events">E0CFF083=FFFF8E5F</value>
+			<value name="show_debugging_info" type="uint">0</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="5F9F27A1" type="uint">0</value>
+			<value id="B21FCD94" type="uint">0</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="B8BD1BFB">
+				<value name="_class" type="string">SEventTriggerComponent</value>
+				<value name="_class_hash" type="uint">1011030555</value>
+				<value name="_object_id" type="objectid">B3298DD62E9BFFFF=FF</value>
+				<value name="event_name" type="vec_events">46B38BDB=FFFF7BEA</value>
+				<value name="list_position" type="uint">3</value>
+				<value name="name" type="string">lookat_on</value>
+				<value name="name_hash" type="uint">2113133397</value>
+				<value name="trigger_percentage" type="uint">100</value>
+			</object>
+		</object>
+		<object id="2415FFE6">
+			<value name="_class" type="string">CLookAtTrigger</value>
+			<value name="_class_hash" type="hashstr">CLookAtTrigger</value>
+			<value name="_object_id" type="objectid">AD0A86EAE8D9FFFF=FF</value>
+			<value name="disable_event" type="vec_events">7E257AB3=FFFF3F01</value>
+			<value name="enable_event" type="vec_events">46B38BDB=FFFF7BEA</value>
+			<value name="enabled" type="uint">0</value>
+			<value name="enter_event" type="vec_events">279AD271=FFFF8896</value>
+			<value name="exit_event" type="vec_events">513443C6=FFFFE66C</value>
+			<value name="name" type="string">interact_lookat</value>
+			<value name="name_hash" type="uint">562840358</value>
+			<value name="range" type="float">2.5</value>
+			<value name="test_visibility" type="uint">1</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="418AFA21">
+				<value name="_class" type="string">CLookAtTriggerShapeComponent</value>
+				<value name="_class_hash" type="uint">1907228404</value>
+				<value name="_object_id" type="objectid">48703F0BA2D6FFFF=FF</value>
+				<value name="name" type="string">LookAtTriggerShapeComponent</value>
+				<value name="name_hash" type="uint">3641119929</value>
+				<value name="world" type="mat">0.4985256,0,0,0, 0,0.2927246,0,0, 0,0,0.3216292,0, -0.001618028,0.1451416,-0.005492359,1</value>
+			</object>
+		</object>
+		<object id="296F282A">
+			<value name="_class" type="string">CEventTrigger</value>
+			<value name="_class_hash" type="hashstr">CEventTrigger</value>
+			<value name="_object_id" type="objectid">2A8F34BB3D00FFFF=FF</value>
+			<value name="enabled" type="uint">1</value>
+			<value name="name" type="string">icon_hints_disable</value>
+			<value name="name_hash" type="uint">3027640588</value>
+			<value name="pass_text" type="uint">0</value>
+			<value name="randomize_unique_indices" type="uint">0</value>
+			<value name="relay_event" type="vec_events">9CD8605B=FFFF67C1, 56438F8F=FFFF7CB5</value>
+			<value name="show_debugging_info" type="uint">0</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="5F9F27A1" type="uint">0</value>
+			<value id="B21FCD94" type="uint">0</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="153D7EA1">
+				<value name="_class" type="string">SEventTriggerComponent</value>
+				<value name="_class_hash" type="uint">1011030555</value>
+				<value name="_object_id" type="objectid">BA9CC6B61650FFFF=FF</value>
+				<value name="event_name" type="vec_events">A204E5CD=FFFFF59D</value>
+				<value name="list_position" type="uint">2</value>
+				<value name="name" type="string">icon_off</value>
+				<value name="name_hash" type="uint">4186322272</value>
+				<value name="trigger_percentage" type="uint">100</value>
+			</object>
+			<object id="C054AB36">
+				<value name="_class" type="string">SEventTriggerComponent</value>
+				<value name="_class_hash" type="uint">1011030555</value>
+				<value name="_object_id" type="objectid">C6ACB34F4782FFFF=FF</value>
+				<value name="event_name" type="vec_events">7E257AB3=FFFF3F01</value>
+				<value name="list_position" type="uint">3</value>
+				<value name="name" type="string">lookat_off</value>
+				<value name="name_hash" type="uint">408257517</value>
+				<value name="trigger_percentage" type="uint">100</value>
+			</object>
+			<object id="F2F63CE9">
+				<value name="_class" type="string">SEventTriggerComponent</value>
+				<value name="_class_hash" type="uint">1011030555</value>
+				<value name="_object_id" type="objectid">FE974978A2DDFFFF=FF</value>
+				<value name="event_name" type="vec_events">E4752B82=FFFF54A7</value>
+				<value name="list_position" type="uint">4</value>
+				<value name="name" type="string">hint_range_disable</value>
+				<value name="name_hash" type="uint">1816744854</value>
+				<value name="trigger_percentage" type="uint">100</value>
+			</object>
+		</object>
+		<object id="2E3582F7">
+			<value name="_class" type="string">CSoundModuleFMODEvent</value>
+			<value name="_class_hash" type="uint">3091573686</value>
+			<value name="_object_id" type="objectid">8493587FD0FBFFFF=FF</value>
+			<value name="enabled" type="uint">1</value>
+			<value name="name" type="string">sfx</value>
+			<value name="name_hash" type="uint">1362830212</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="DD483A4D" type="string">default</value>
+			<value id="0853B72C" type="string">fmod_event_factory</value>
+			<value id="F3D8ECE2" type="uint">0</value>
+			<value id="CC2C2BD5" type="uint">0</value>
+			<value id="79CA129D" type="uint">1</value>
+			<value id="693D99BB" type="vec_events">5A573158=FFFF0658</value>
+			<value id="44259145" type="vec_byte">6B,DF,96,7B,91,43,AE,41,9C,7D,A7,72,8F,84,0D,AC</value>
+			<value id="03749BE9" type="uint">3</value>
+			<value id="3807A342" type="uint">1</value>
+			<value id="D87F3E00" type="uint">1</value>
+			<value id="FD871D96" type="uint">1</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="194580E8">
+				<value name="_class" type="string">SSoundModuleControllerAttachPoint</value>
+				<value name="_class_hash" type="uint">1414927486</value>
+				<value name="_object_id" type="objectid">A97D7E5DFE2BFFFF=FF</value>
+				<value name="name" type="string">AttachPoint</value>
+				<value name="name_hash" type="uint">170345542</value>
+				<value id="50478566" type="uint">0</value>
+				<value id="81982D31" type="uint">0</value>
+				<value id="F533897B" type="uint">1</value>
+			</object>
+			<object id="86339552">
+				<value name="_class" type="string">CSoundModuleFMODEventFunction</value>
+				<value name="_class_hash" type="uint">2635261014</value>
+				<value name="_object_id" type="objectid">E970B38A24A2FFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">start</value>
+				<value name="name_hash" type="hashstr">start</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="57825966" type="uint">0</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="E3FC98BD" type="uint">0</value>
+				<value id="E415A4DB" type="vec_events">651B3B1C=FFFF4A53</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+			</object>
+			<object id="AD18AC8B">
+				<value name="_class" type="string">CSoundModuleSendFunction</value>
+				<value name="_class_hash" type="uint">1956275678</value>
+				<value name="_object_id" type="objectid">A069A0F82DAFFFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">add_tag</value>
+				<value name="name_hash" type="uint">2180674422</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0.0004882813,0,0,1</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="1CF8B15C" type="uint">2</value>
+				<value id="E3FC98BD" type="string">add_tag</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="206D3DB6" type="float">0</value>
+				<value id="E415A4DB" type="vec_events">5A573158=FFFF0658</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="8B42AB9F">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">6BCE0B7D04F4FFFF=FF</value>
+					<value name="name" type="string">sound_module_argument</value>
+					<value name="name_hash" type="uint">2499160704</value>
+					<value name="type" type="uint">0</value>
+					<value id="73EAD679" type="uint">0</value>
+				</object>
+			</object>
+			<object id="ADD065EA">
+				<value name="_class" type="string">CSoundModuleSendFunction</value>
+				<value name="_class_hash" type="uint">1956275678</value>
+				<value name="_object_id" type="objectid">A3E4C987DB6EFFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">set_position</value>
+				<value name="name_hash" type="uint">264634022</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="1CF8B15C" type="uint">2</value>
+				<value id="E3FC98BD" type="string">set_position</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="206D3DB6" type="float">0</value>
+				<value id="E415A4DB" type="vec_events">651B3B1C=FFFF4A53</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="02F5E7F3">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">40CD8C91BB7FFFF=FF</value>
+					<value name="name" type="string">arg3_world_pos_z</value>
+					<value name="name_hash" type="uint">2842905985</value>
+					<value name="type" type="uint">3</value>
+					<value id="73EAD679" type="uint">2</value>
+				</object>
+				<object id="4EC339A0">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">BD2D1EC9DEE4FFFF=FF</value>
+					<value name="name" type="string">arg2_world_pos_y</value>
+					<value name="name_hash" type="uint">3672310386</value>
+					<value name="type" type="uint">2</value>
+					<value id="73EAD679" type="uint">1</value>
+				</object>
+				<object id="8B42AB9F">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">D29272F7950CFFFF=FF</value>
+					<value name="name" type="string">arg1_world_pos_x</value>
+					<value name="name_hash" type="uint">2716928810</value>
+					<value name="type" type="uint">1</value>
+					<value id="73EAD679" type="uint">0</value>
+				</object>
+			</object>
+			<object id="C3B43E4B">
+				<value name="_class" type="string">CSoundModuleFMODEventFunction</value>
+				<value name="_class_hash" type="uint">2635261014</value>
+				<value name="_object_id" type="objectid">71BB2FC0C077FFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">stop</value>
+				<value name="name_hash" type="hashstr">stop</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="57825966" type="uint">0</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="E3FC98BD" type="uint">1</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+			</object>
+		</object>
+		<object id="43409C73">
+			<value name="_class" type="string">CSoundModuleFMODEvent</value>
+			<value name="_class_hash" type="uint">3091573686</value>
+			<value name="_object_id" type="objectid">F2CF9F3B696EFFFF=FF</value>
+			<value name="enabled" type="uint">1</value>
+			<value name="name" type="string">sfx</value>
+			<value name="name_hash" type="uint">1362830212</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="DD483A4D" type="string">default</value>
+			<value id="0853B72C" type="string">fmod_event_factory</value>
+			<value id="F3D8ECE2" type="uint">0</value>
+			<value id="CC2C2BD5" type="uint">0</value>
+			<value id="79CA129D" type="uint">1</value>
+			<value id="693D99BB" type="vec_events">78FF2F02=FFFFECAD</value>
+			<value id="44259145" type="vec_byte">A7,E1,53,57,CA,10,85,4F,BE,65,6D,5F,04,46,48,56</value>
+			<value id="03749BE9" type="uint">3</value>
+			<value id="3807A342" type="uint">1</value>
+			<value id="D87F3E00" type="uint">1</value>
+			<value id="FD871D96" type="uint">1</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="194580E8">
+				<value name="_class" type="string">SSoundModuleControllerAttachPoint</value>
+				<value name="_class_hash" type="uint">1414927486</value>
+				<value name="_object_id" type="objectid">D60932FD2430FFFF=FF</value>
+				<value name="name" type="string">AttachPoint</value>
+				<value name="name_hash" type="uint">170345542</value>
+				<value id="50478566" type="uint">0</value>
+				<value id="81982D31" type="uint">0</value>
+				<value id="F533897B" type="uint">1</value>
+			</object>
+			<object id="86339552">
+				<value name="_class" type="string">CSoundModuleFMODEventFunction</value>
+				<value name="_class_hash" type="uint">2635261014</value>
+				<value name="_object_id" type="objectid">9F7B04F12FE7FFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">start</value>
+				<value name="name_hash" type="hashstr">start</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="57825966" type="uint">0</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="E3FC98BD" type="uint">0</value>
+				<value id="E415A4DB" type="vec_events">AACDE0FA=FFFF3DF2, A28285A9=FFFFBBF4</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+			</object>
+			<object id="AD18AC8B">
+				<value name="_class" type="string">CSoundModuleSendFunction</value>
+				<value name="_class_hash" type="uint">1956275678</value>
+				<value name="_object_id" type="objectid">F8103CF3A0CBFFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">add_tag</value>
+				<value name="name_hash" type="uint">2180674422</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0.0004882813,0,0,1</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="1CF8B15C" type="uint">2</value>
+				<value id="E3FC98BD" type="string">add_tag</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="206D3DB6" type="float">0</value>
+				<value id="E415A4DB" type="vec_events">78FF2F02=FFFFECAD</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="8B42AB9F">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">16D198875143FFFF=FF</value>
+					<value name="name" type="string">sound_module_argument</value>
+					<value name="name_hash" type="uint">2499160704</value>
+					<value name="type" type="uint">0</value>
+					<value id="73EAD679" type="uint">0</value>
+				</object>
+			</object>
+			<object id="ADD065EA">
+				<value name="_class" type="string">CSoundModuleSendFunction</value>
+				<value name="_class_hash" type="uint">1956275678</value>
+				<value name="_object_id" type="objectid">863D380590BAFFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">set_position</value>
+				<value name="name_hash" type="uint">264634022</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="1CF8B15C" type="uint">2</value>
+				<value id="E3FC98BD" type="string">set_position</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="206D3DB6" type="float">0</value>
+				<value id="E415A4DB" type="vec_events">651B3B1C=FFFF4A53</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="02F5E7F3">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">4EEB3B2D45F5FFFF=FF</value>
+					<value name="name" type="string">arg3_world_pos_z</value>
+					<value name="name_hash" type="uint">2842905985</value>
+					<value name="type" type="uint">3</value>
+					<value id="73EAD679" type="uint">2</value>
+				</object>
+				<object id="4EC339A0">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">8345C568B223FFFF=FF</value>
+					<value name="name" type="string">arg2_world_pos_y</value>
+					<value name="name_hash" type="uint">3672310386</value>
+					<value name="type" type="uint">2</value>
+					<value id="73EAD679" type="uint">1</value>
+				</object>
+				<object id="8B42AB9F">
+					<value name="_class" type="string">SSoundModuleArgument</value>
+					<value name="_class_hash" type="uint">3165906327</value>
+					<value name="_object_id" type="objectid">1B46A6864E7DFFFF=FF</value>
+					<value name="name" type="string">arg1_world_pos_x</value>
+					<value name="name_hash" type="uint">2716928810</value>
+					<value name="type" type="uint">1</value>
+					<value id="73EAD679" type="uint">0</value>
+				</object>
+			</object>
+			<object id="C3B43E4B">
+				<value name="_class" type="string">CSoundModuleFMODEventFunction</value>
+				<value name="_class_hash" type="uint">2635261014</value>
+				<value name="_object_id" type="objectid">D9A135BE7746FFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">stop</value>
+				<value name="name_hash" type="hashstr">stop</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="57825966" type="uint">0</value>
+				<value id="CEBABD71" type="uint">0</value>
+				<value id="89C495EE" type="uint">0</value>
+				<value id="E3FC98BD" type="uint">1</value>
+				<value id="6FCF1A67" type="uint">0</value>
+				<value id="772052C7" type="uint">0</value>
+			</object>
+		</object>
+		<object id="6D0808A9">
+			<value name="_class" type="string">CPersistentTimer</value>
+			<value name="_class_hash" type="uint">2515134927</value>
+			<value name="_object_id" type="objectid">AB5B945D9902FFFF=FF</value>
+			<value name="name" type="string">PersistentTimer</value>
+			<value name="name_hash" type="uint">3422473773</value>
+			<value name="time" type="uint">14400</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="7B3C1A24" type="vec_events">651B3B1C=FFFF4A53</value>
+			<value id="2AC1CB43" type="vec_events">AACDE0FA=FFFF3DF2</value>
+			<value id="57825966" type="uint">0</value>
+			<value id="800A970D" type="vec_events">E5533EE2=FFFFB01F</value>
+		</object>
+		<object id="80B989D2">
+			<value name="_class" type="string">CGraphObject</value>
+			<value name="_class_hash" type="uint">3440140101</value>
+			<value name="_object_id" type="objectid">A173F81F85B4FFFF=FF</value>
+			<value name="name" type="string">interact_loot_container</value>
+			<value name="name_hash" type="uint">4172557879</value>
+			<value name="script" type="string">graphs/interact_loot_container.graph</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="540909BC" type="objectid">AD0A86EAE8D9FFFF=FF</value>
+			<value id="3C3980D4" type="string">interact_search</value>
+			<value id="3B4EA294" type="vec_events">A28285A9=FFFFBBF4</value>
+			<value id="FCAE1B81" type="uint">1</value>
+			<value id="5B8DAA42" type="vec_events">651B3B1C=FFFF4A53</value>
+			<value id="92901463" type="objectid">E44D8D368070FFFF=FF</value>
+			<value id="DFDE76EB" type="vec_events">9CD8605B=FFFF67C1, 513443C6=FFFFE66C</value>
+			<value id="916C06E6" type="vec_events">56438F8F=FFFF7CB5</value>
+			<value id="A13A15CE" type="vec_events">AACDE0FA=FFFF3DF2</value>
+			<value id="55904E44" type="uint">1</value>
+			<value id="3D037AC7" type="vec_events">31124505=FFFF3B36</value>
+			<value id="20EFB0E1" type="vec_events">E5533EE2=FFFFB01F</value>
+			<value id="57825966" type="uint">0</value>
+			<value id="0A634181" type="objectid">5A1DC348EE36FFFF=FF</value>
+		</object>
+		<object id="9A92A17C">
+			<value name="_class" type="string">CLootCrate</value>
+			<value name="_class_hash" type="uint">3583883940</value>
+			<value name="_object_id" type="objectid">5A1DC348EE36FFFF=FF</value>
+			<value name="enabled" type="uint">1</value>
+			<value name="name" type="string">LootCrate</value>
+			<value name="name_hash" type="uint">1047770226</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="5CFD9608" type="float">50</value>
+			<value id="55C3DA4F" type="uint">0</value>
+			<value id="3B276732" type="string">[table] starterpack handgun_2815453779265978368</value>
+			<value id="81B3EADB" type="uint">0</value>
+			<value id="59697C28" type="vec_events">651B3B1C=FFFF4A53</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="D21BE7DC">
+				<value name="_class" type="string">CLootModifier</value>
+				<value name="_class_hash" type="uint">4196596457</value>
+				<value name="_object_id" type="objectid">4282261DDF6EFFFF=FF</value>
+				<value name="enabled" type="uint">1</value>
+				<value name="name" type="string">[lootmodifier] add handgun if not owned</value>
+				<value name="name_hash" type="uint">2379286117</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="918A1929" type="uint">0</value>
+				<value id="A07C4A0D" type="uint">0</value>
+				<value id="8E9EB365" type="string">[table] starterpack handgun_2815453779265978368</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="E24AAE7A">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string">wpn_rifle_sniper_soviet_01_q5</value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="1">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string">equipment_consumable_firstaid_beta_01 </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="2">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="3">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="4">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="5">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="6">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="7">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="8">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="9">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="10">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="11">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="12">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="13">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="14">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="15">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="16">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="17">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="18">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="19">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="20">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="21">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="22">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="23">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="24">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="25">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="26">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="27">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="28">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="29">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="30">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="31">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="32">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="33">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="34">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="35">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="36">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="37">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="38">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					</object>
+				<object id="39">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+						</object>
+				<object id="40">
+					<value name="_class" type="string">SAddForcedExtraItemToTable</value>
+					<value name="_class_hash" type="uint">2980467921</value>
+					<value name="_object_id" type="objectid">759990B06AFFFFFF=FF</value>
+					<value name="name" type="string">[ADD_ITEM] wpn_handgun_semiauto_32acp_01_q1</value>
+					<value name="name_hash" type="uint">3831762616</value>
+					<value name="spawn_tags" type="string"> </value>
+					<value id="C78EDD08" type="float">1</value>
+					<value id="9AF1E892" type="uint">3735928559</value>
+					<value id="7B5CC49B" type="uint">2911266237</value>
+					<value id="8448C7D1" type="uint">1</value>
+					
+				</object>
+			</object>
+		</object>
+		<object id="B5805128">
+			<value name="_class" type="string">CRigidObject</value>
+			<value name="_class_hash" type="hashstr">CRigidObject</value>
+			<value name="_object_id" type="objectid">C84FD0CF89B5FFFF=FF</value>
+			<value name="cast_shadows" type="uint">1</value>
+			<value name="clip" type="uint">1</value>
+			<value name="collision" type="uint">1298973533</value>
+			<value name="collision_enabled" type="uint">1</value>
+			<value name="debris" type="uint">0</value>
+			<value name="dynamic_pathfinding" type="uint">0</value>
+			<value name="filename" type="uint">1898736214</value>
+			<value name="force_activate_on_spawn" type="uint">0</value>
+			<value name="force_daytime_emissive" type="uint">0</value>
+			<value name="grappling_mode" type="uint">0</value>
+			<value name="inherit_parent_transform" type="uint">1</value>
+			<value name="name" type="string">base_container</value>
+			<value name="name_hash" type="uint">909711303</value>
+			<value name="physics_effects_tuning" type="uint">1783635151</value>
+			<value name="pre_draw" type="uint">0</value>
+			<value name="reflect_in_water" type="uint">0</value>
+			<value name="static_pathfinding" type="uint">1</value>
+			<value name="target_start_enabled" type="uint">0</value>
+			<value name="type" type="uint">1</value>
+			<value name="visible" type="uint">1</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0.129759,1</value>
+			<value id="FB317E2C" type="uint">1</value>
+			<value id="3978DD95" type="uint">0</value>
+			<value id="9B98AE97" type="objectid">000000=00</value>
+			<value id="B4331697" type="vec">1,1,1</value>
+			<value id="FD3389E2" type="uint">0</value>
+			<value id="46AFE5B4" type="vec">1,1,1</value>
+			<value id="FE0BAF15" type="uint">0</value>
+			<value id="BE9E6EFA" type="uint">0</value>
+			<value id="03018560" type="float">0.15</value>
+			<value id="98796658" type="vec">1,1,1</value>
+			<value id="57825966" type="uint">0</value>
+			<value id="101C16E8" type="uint">0</value>
+			<value id="91304B41" type="float">0</value>
+			<object id="F3B1BA73">
+				<value name="_class" type="string">COutline</value>
+				<value name="_class_hash" type="hashstr">COutline</value>
+				<value name="_object_id" type="objectid">F952907F4F5EFFFF=FF</value>
+				<value name="color" type="vec4">0.3647059,0.2352941,0,1</value>
+				<value name="hide_event" type="vec_events">513443C6=FFFFE66C</value>
+				<value name="name" type="string">highlight</value>
+				<value name="name_hash" type="uint">1154932500</value>
+				<value name="opacity" type="float">1</value>
+				<value name="show_event" type="vec_events">279AD271=FFFF8896</value>
+				<value name="type" type="uint">1</value>
+				<value name="visible" type="uint">0</value>
+				<value name="width" type="uint">1</value>
+				<value name="world" type="mat">1,-1.163812E-09,6.769341E-11,0, 2.54587E-09,0.9999999,1.164153E-10,0, 8.781591E-11,0,0.9999997,0, 1.443611E-11,0,1.192093E-07,1</value>
+				<value id="003697EE" type="float">1</value>
+				<value id="49BCBDE0" type="uint">20</value>
+				<value id="56FC7315" type="uint">1</value>
+				<value id="57825966" type="uint">0</value>
+			</object>
+		</object>
+		<object id="B94F5D01">
+			<value name="_class" type="string">CAnimRotation</value>
+			<value name="_class_hash" type="hashstr">CAnimRotation</value>
+			<value name="_object_id" type="objectid">773515C5399BFFFF=FF</value>
+			<value name="acceleration_time" type="float">0</value>
+			<value name="angle" type="uint">20</value>
+			<value name="animation_speed" type="float">240</value>
+			<value name="animation_speed_change" type="float">0</value>
+			<value name="at_end" type="vec_events">B27B1875=FFFF8C81</value>
+			<value name="deceleration_time" type="float">0</value>
+			<value name="ease_out_value" type="float">0</value>
+			<value name="enabled_from_start" type="uint">0</value>
+			<value name="loop_count" type="uint">0</value>
+			<value name="loop_mode" type="uint">0</value>
+			<value name="name" type="string">military_crate_ammo_small_lid_01</value>
+			<value name="name_hash" type="uint">3629801780</value>
+			<value name="noise" type="uint">0</value>
+			<value name="noise_amplitude" type="float">0</value>
+			<value name="noise_chaos" type="float">0</value>
+			<value name="noise_frequency" type="float">0</value>
+			<value name="offset" type="float">0</value>
+			<value name="reverse" type="vec_events">A28285A9=FFFFBBF4, AACDE0FA=FFFF3DF2</value>
+			<value name="rotation_axis" type="uint">0</value>
+			<value name="start" type="vec_events">651B3B1C=FFFF4A53</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0.25,0.129759,1</value>
+			<value id="17433AA7" type="uint">0</value>
+			<value id="E3F87881" type="vec_events">9CD8605B=FFFF67C1</value>
+			<value id="DDFD72DE" type="float">-1</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="CF0FE0D5">
+				<value name="_class" type="string">CAnimRotation</value>
+				<value name="_class_hash" type="hashstr">CAnimRotation</value>
+				<value name="_object_id" type="objectid">F006025FB4A8FFFF=FF</value>
+				<value name="acceleration_time" type="float">0</value>
+				<value name="angle" type="uint">4294967291</value>
+				<value name="animation_speed" type="float">60</value>
+				<value name="animation_speed_change" type="float">0</value>
+				<value name="deceleration_time" type="float">1</value>
+				<value name="ease_out_value" type="float">0</value>
+				<value name="enabled_from_start" type="uint">0</value>
+				<value name="loop_count" type="uint">0</value>
+				<value name="loop_mode" type="uint">0</value>
+				<value name="name" type="string">anim.rotation.</value>
+				<value name="name_hash" type="uint">4220098656</value>
+				<value name="noise" type="uint">0</value>
+				<value name="noise_amplitude" type="float">0</value>
+				<value name="noise_chaos" type="float">0</value>
+				<value name="noise_frequency" type="float">0</value>
+				<value name="offset" type="float">0</value>
+				<value name="reverse" type="vec_events">A28285A9=FFFFBBF4, AACDE0FA=FFFF3DF2</value>
+				<value name="rotation_axis" type="uint">0</value>
+				<value name="start" type="vec_events">B27B1875=FFFF8C81</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+				<value id="17433AA7" type="uint">0</value>
+				<value id="E3F87881" type="vec_events">9CD8605B=FFFF67C1</value>
+				<value id="DDFD72DE" type="float">-1</value>
+				<value id="57825966" type="uint">0</value>
+				<object id="3F6272D8">
+					<value name="_class" type="string">CRigidObject</value>
+					<value name="_class_hash" type="hashstr">CRigidObject</value>
+					<value name="_object_id" type="objectid">41B98F24C3E0FFFF=FF</value>
+					<value name="cast_shadows" type="uint">1</value>
+					<value name="clip" type="uint">1</value>
+					<value name="collision" type="uint">3058505741</value>
+					<value name="collision_enabled" type="uint">1</value>
+					<value name="debris" type="uint">0</value>
+					<value name="dynamic_pathfinding" type="uint">0</value>
+					<value name="filename" type="uint">3445931679</value>
+					<value name="force_activate_on_spawn" type="uint">0</value>
+					<value name="force_daytime_emissive" type="uint">0</value>
+					<value name="grappling_mode" type="uint">0</value>
+					<value name="inherit_parent_transform" type="uint">1</value>
+					<value name="name" type="string">military_crate_ammo_small_lid_01</value>
+					<value name="name_hash" type="uint">3629801780</value>
+					<value name="physics_effects_tuning" type="uint">1783635151</value>
+					<value name="pre_draw" type="uint">0</value>
+					<value name="reflect_in_water" type="uint">0</value>
+					<value name="static_pathfinding" type="uint">1</value>
+					<value name="target_start_enabled" type="uint">0</value>
+					<value name="type" type="uint">2</value>
+					<value name="visible" type="uint">1</value>
+					<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+					<value id="FB317E2C" type="uint">1</value>
+					<value id="3978DD95" type="uint">0</value>
+					<value id="9B98AE97" type="objectid">000000=00</value>
+					<value id="B4331697" type="vec">1,1,1</value>
+					<value id="FD3389E2" type="uint">0</value>
+					<value id="46AFE5B4" type="vec">1,1,1</value>
+					<value id="FE0BAF15" type="uint">0</value>
+					<value id="BE9E6EFA" type="uint">0</value>
+					<value id="03018560" type="float">0.15</value>
+					<value id="98796658" type="vec">1,1,1</value>
+					<value id="57825966" type="uint">0</value>
+					<value id="101C16E8" type="uint">0</value>
+					<value id="91304B41" type="float">0</value>
+					<object id="68C95828">
+						<value name="_class" type="string">COutline</value>
+						<value name="_class_hash" type="hashstr">COutline</value>
+						<value name="_object_id" type="objectid">60F01269D633FFFF=FF</value>
+						<value name="color" type="vec4">0.3647059,0.2352941,0,1</value>
+						<value name="hide_event" type="vec_events">513443C6=FFFFE66C</value>
+						<value name="name" type="string">highlight</value>
+						<value name="name_hash" type="uint">1154932500</value>
+						<value name="opacity" type="float">1</value>
+						<value name="show_event" type="vec_events">279AD271=FFFF8896</value>
+						<value name="type" type="uint">1</value>
+						<value name="visible" type="uint">0</value>
+						<value name="width" type="uint">1</value>
+						<value name="world" type="mat">1,-2.324913E-10,-1.65139E-10,0, 1.169964E-10,1,-1.478474E-08,0, -2.252864E-10,1.490116E-08,0.9999999,0, 0,0,1.192093E-07,1</value>
+						<value id="003697EE" type="float">1</value>
+						<value id="49BCBDE0" type="uint">20</value>
+						<value id="56FC7315" type="uint">1</value>
+						<value id="57825966" type="uint">0</value>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="CD97B55C">
+			<value name="_class" type="string">CShapeTrigger</value>
+			<value name="_class_hash" type="uint">1822804832</value>
+			<value name="_object_id" type="objectid">89C47D305161FFFF=FF</value>
+			<value name="disable_event" type="vec_events">9CD8605B=FFFF67C1, 56438F8F=FFFF7CB5</value>
+			<value name="distance_safe" type="uint">0</value>
+			<value name="enable_event" type="vec_events">31124505=FFFF3B36</value>
+			<value name="enabled" type="uint">0</value>
+			<value name="enter_event" type="vec_events">390F8E24=FFFFD9DF</value>
+			<value name="exit_event" type="vec_events">E4752B82=FFFF54A7</value>
+			<value name="explosive" type="uint">0</value>
+			<value name="faction" type="uint">0</value>
+			<value name="ignore_faction" type="uint">0</value>
+			<value name="name" type="string">hint_shape</value>
+			<value name="name_hash" type="uint">2748778124</value>
+			<value name="npc" type="uint">0</value>
+			<value name="npc_dead" type="uint">0</value>
+			<value name="player" type="uint">1</value>
+			<value name="player_in_vehicle" type="uint">1</value>
+			<value name="reenable_distance" type="uint">3000</value>
+			<value name="rigid_object" type="uint">0</value>
+			<value name="subject" type="objectid">000000=00</value>
+			<value name="vehicle" type="uint">0</value>
+			<value name="vehicle_type" type="uint">0</value>
+			<value name="weapon" type="uint">0</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="DA515849" type="uint">0</value>
+			<value id="5401D231" type="uint">0</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="6015ADBB">
+				<value name="_class" type="string">CShapeTriggerComponent</value>
+				<value name="_class_hash" type="hashstr">CShapeTriggerComponent</value>
+				<value name="_object_id" type="objectid">BD466DDE3F5DFFFF=FF</value>
+				<value name="name" type="string">ShapeTriggerComponent</value>
+				<value name="name_hash" type="uint">1058936922</value>
+				<value name="type" type="uint">0</value>
+				<value name="world" type="mat">6,0,0,0, 0,8,0,0, 0,0,6,0, 0,0,0,1</value>
+			</object>
+		</object>
+		<object id="E10DCE2E">
+			<value name="_class" type="string">CLookAtTrigger</value>
+			<value name="_class_hash" type="hashstr">CLookAtTrigger</value>
+			<value name="_object_id" type="objectid">16D86D375826FFFF=FF</value>
+			<value name="disable_event" type="vec_events">E4752B82=FFFF54A7</value>
+			<value name="enable_event" type="vec_events">390F8E24=FFFFD9DF</value>
+			<value name="enabled" type="uint">0</value>
+			<value name="enter_event" type="vec_events">E0CFF083=FFFF8E5F</value>
+			<value name="exit_event" type="vec_events">A204E5CD=FFFFF59D</value>
+			<value name="name" type="string">hint_lookat</value>
+			<value name="name_hash" type="uint">3423606735</value>
+			<value name="range" type="float">5</value>
+			<value name="test_visibility" type="uint">1</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0.1335737,0,1</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="8B6F3F3E">
+				<value name="_class" type="string">CLookAtTriggerPointComponent</value>
+				<value name="_class_hash" type="uint">641216102</value>
+				<value name="_object_id" type="objectid">BE55CA39D7DEFFFF=FF</value>
+				<value name="angle" type="float">180</value>
+				<value name="name" type="string">LookAtTriggerPointComponent</value>
+				<value name="name_hash" type="uint">1901336385</value>
+				<value name="test_visibility_offset" type="float">0.35</value>
+				<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			</object>
+		</object>
+		<object id="F7CA9C57">
+			<value name="_class" type="string">CShapeTrigger</value>
+			<value name="_class_hash" type="uint">1822804832</value>
+			<value name="_object_id" type="objectid">E44D8D368070FFFF=FF</value>
+			<value name="disable_event" type="vec_events">E4752B82=FFFF54A7, 9CD8605B=FFFF67C1, 56438F8F=FFFF7CB5</value>
+			<value name="distance_safe" type="uint">1</value>
+			<value name="enable_event" type="vec_events">390F8E24=FFFFD9DF</value>
+			<value name="enabled" type="uint">0</value>
+			<value name="explosive" type="uint">0</value>
+			<value name="faction" type="uint">0</value>
+			<value name="ignore_faction" type="uint">0</value>
+			<value name="name" type="string">interact_shape</value>
+			<value name="name_hash" type="uint">1956377246</value>
+			<value name="npc" type="uint">0</value>
+			<value name="npc_dead" type="uint">0</value>
+			<value name="player" type="uint">1</value>
+			<value name="player_in_vehicle" type="uint">0</value>
+			<value name="reenable_distance" type="uint">100</value>
+			<value name="rigid_object" type="uint">0</value>
+			<value name="subject" type="objectid">000000=00</value>
+			<value name="vehicle" type="uint">0</value>
+			<value name="vehicle_type" type="uint">0</value>
+			<value name="weapon" type="uint">0</value>
+			<value name="world" type="mat">1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1</value>
+			<value id="DA515849" type="uint">0</value>
+			<value id="5401D231" type="uint">0</value>
+			<value id="57825966" type="uint">0</value>
+			<object id="6FB0BF45">
+				<value name="_class" type="string">CShapeTriggerComponent</value>
+				<value name="_class_hash" type="hashstr">CShapeTriggerComponent</value>
+				<value name="_object_id" type="objectid">27756F7BED4DFFFF=FF</value>
+				<value name="name" type="string">ShapeTriggerComponent</value>
+				<value name="name_hash" type="uint">1058936922</value>
+				<value name="type" type="uint">0</value>
+				<value name="world" type="mat">3,0,0,0, 0,4,0,0, 0,0,3,0, 0,-0.5,0,1</value>
+			</object>
+		</object>
+	</object>
+</container>
